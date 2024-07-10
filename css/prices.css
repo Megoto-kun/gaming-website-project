@@ -1,0 +1,77 @@
+.Prices{
+    border-radius: 20px;
+    margin: 70px auto;
+     width: 100%;
+     height: 500px;
+     background-color: rgb(125, 131, 255,.5);
+}
+.pricediv{
+    position: relative;
+    text-align: center;
+    margin: 0% 5%;
+        width: 23%;
+        height: 300px;
+        float: left;
+        text-align: center;
+        overflow-wrap: break-word;
+        transition: 0.5s;
+        background-color: rgb(125, 131, 255);
+        border-radius: 20px;
+        margin-top: 100px;
+}
+.pricesoverlay{
+    background-color: rgb(0, 0, 0);
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 0%;
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        transition:  0.5s;
+        border-radius: 20px;
+}
+.pricediv:hover .pricesoverlay {
+    width: 100%;
+    height: 100%;
+    
+    visibility: visible;
+        opacity: 1;
+        background-color: rgb(0, 0, 0,.5);
+    }
+    .pricehead {
+        font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 5px;
+        font-style: normal;
+        font-variation-settings:
+         "wdth" 100;
+         color: white;
+font-size: 50px;
+color: white;
+margin-bottom: 50px;
+    }
+    
+    .pricespan {
+        font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 5px;
+        font-style: normal;
+        font-variation-settings:
+         "wdth" 100;
+         color: white;
+bottom: 0;
+        color: white;
+       
+    }
+    .pricediv:hover .pricehead {
+      color: cyan;
+      
+        }
+        .pricediv:hover .pricespan {
+            color: black;
+            
+              }

@@ -1,0 +1,87 @@
+.Frontpanal{
+    background-image: url(../images/galaxy-space-pixel-art-digital-art-4k-wallpaper-uhdpaper.com-762@0@i.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+   
+}
+
+
+.cs{
+    width: 200px;
+    height: 70px;
+    background-color: rgb(25,16,75,.7);
+    border-radius: 5px;
+    color: white;
+    right: 7px;
+    bottom: 7px;
+    text-align: center;
+    line-height: 70px;
+    position: fixed;
+    z-index: 10;
+    transition: 0.5s;
+}
+.cs:hover{
+    background-color: rgba(62, 49, 133);
+    color: rgb(111, 94, 209);
+    font-family: "Inconsolata", monospace;
+font-optical-sizing: auto;
+font-weight: 5px;
+font-style: normal;
+font-variation-settings:
+  "wdth" 100;
+}
+.cs span{
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 5px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.mainpanel{
+   position: absolute;
+   top: 45%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+width: 65%;
+text-align: center;
+
+}
+.mainhead{
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 5px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: white ;
+    font-size: 70px;
+}
+.s1{
+    display: block;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 30px;
+}
+.explore ,.yourcart{
+    display: inline;
+    width: 200px;
+    height: 70px;
+    margin: auto 20px;
+    margin-top: 50px;
+    background-color: rgb(24, 14, 158);
+color: white;
+border-radius: 15px;
+transition: 0.5s;
+font-size: 25px;
+}
+.explore:hover ,.yourcart:hover{
+    background-color: rgb(31, 58, 211);
+
+}

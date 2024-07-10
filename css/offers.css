@@ -1,0 +1,114 @@
+
+.offers{
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(125, 131, 255, 0.5);
+  border-radius: 15px;
+  float: left;
+}
+.offersshead{
+    font-size: 60px;
+    line-height: 70px;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 5px;
+        font-style: normal;
+        font-variation-settings:
+         "wdth" 100;
+         color: white;
+}
+
+
+.offers i{
+    color: black;
+    font-size: 130px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.offers span{
+    font-family: "Inconsolata", monospace;
+font-optical-sizing: auto;
+font-weight: 5px;
+font-style: normal;
+font-variation-settings:
+  "wdth" 100;
+    font-size: 30px;
+color: black;
+}
+
+/* pay attetion to :hover selector no space before */
+
+.offersdiv {
+    background-color: rgba(125, 131, 255);
+    border-radius: 15px;
+margin: 0% 6.6%;
+width: 20%;
+height: 300px;
+margin-top: 50px;
+text-align: center;
+    float: left;
+    position: relative;
+    transition: 0.5s;
+}
+
+ /* .offeroverlay {
+background-color: black;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 100%;
+height: 100%;
+text-align: center;
+opacity: 0;
+visibility: hidden;
+transition:  1s;
+} */
+.offersdiv:hover  {
+    background-color: rgb(212, 220, 255);
+} 
+.section2bg{
+    width: 100%;
+    height: 2200px;
+    background-image: url(../images/space-stars-nebula-andromeda-4k-wallpaper-uhdpaper.com-479@0@h.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+padding: 50px 0px ;
+position: relative;
+
+}
+.features{
+    border-radius: 20px;
+margin:200px auto ;
+width: 80%;
+height: 400px;
+background-color: rgb(125, 131, 255,.5);
+background-attachment: fixed;
+background-size: cover;
+border-radius: px;
+}
+.features div{
+text-align: center;
+float: left;
+width: 15%;
+margin: 60px 2.5%;
+}
+.features i{
+display: block;
+font-size: 80px;
+margin-bottom: 30px;
+color: white;
+}
+.featspan{
+font-size: 40px;
+font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 5px;
+        font-style: normal;
+        font-variation-settings:
+         "wdth" 100;
+         color: white;
+}

@@ -1,0 +1,104 @@
+.comingsoon{
+    position: relative;
+    width: 20%;
+    margin: 20px auto;
+    height: 200px;
+    background-color: rgb(0, 127, 200);
+    text-align: center;
+    transition: 1s;
+    border-radius: 15px;
+}
+.comingsoonhead{
+    line-height: 190px;
+    color: white;
+    font-family: "Inconsolata", monospace;
+font-optical-sizing: auto;
+font-weight: 5px;
+font-style: normal;
+font-variation-settings:
+  "wdth" 100;
+
+}
+.comingsoondiv {
+    background-size: cover;
+    text-align: center;
+    width: 45%;
+    margin: 30px 2.5%;
+    height: 500px;
+float: left;
+width: 0%;
+height: 0%;
+transition: 0.6s;
+overflow: hidden;
+position: relative;
+}
+.comingsoon:hover{
+    width: 100%;
+}
+.comingsoon:hover{
+    height: 2000px ;
+    background-color:  rgb(25, 16, 120);
+    text-align: center;
+    border: 4px solid gray;
+}
+
+.comingsoon:hover .comingsoondiv{
+    transition-delay: 0.7s;
+    width: 45%;
+    margin: 30px 2.5%;
+    height: 500px;
+}
+
+.comingsoondiv1{
+    background-image: url(../images/Elden-Ring-Shadow-of-the-Erdtree-Game-Pass.webp);
+}
+.comingsoondiv2{
+    background-image: url(../images/Ghostrunner-2.webp);
+}
+.comingsoondiv3{
+    background-image: url(../images/razer-viper-ultimate-cyberpunk-2077-hero-mobile.jpg);
+}
+.comingsoondiv4{
+    background-image: url(../images/maxresdefault.jpg);
+}
+.comingsoondiv5{
+    background-image: url(../images/hades-2-key-art-melinoe.webp);
+}
+.comingsoondiv6{
+    background-image: url(../images/maxresdefault\ \(1\).jpg);
+}
+
+.comingsoonoverlay{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 0%;
+    opacity: 0;
+    /* visibility: hidden; */
+    transition:  0.7s;
+   overflow: hidden;
+} 
+
+.comingsoondiv:hover .comingsoonoverlay{
+    background-color: rgb(0, 0, 0,.7);
+height: 100%;
+visibility: visible;
+opacity: 1;
+}
+.preorder ,.Moreinformation {
+    display: inline;
+    width: 200px;
+    height: 70px;
+    margin: auto 20px;
+    margin-top: 10%;
+    background-color: rgb(35, 25, 92);
+color: white;
+border-radius: 15px;
+}
+.comingsoon .comingsoondiv h1{
+    line-height: 500px;
+}
